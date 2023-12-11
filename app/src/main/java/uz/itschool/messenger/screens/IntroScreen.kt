@@ -117,7 +117,9 @@ fun IntroScreen(navController: NavHostController) {
 
 
             Button(
-                onClick = { },
+                onClick = {
+                          navController.navigate("registration_screen")
+                },
                 modifier = Modifier
                     .padding(top = 80.dp)
                     .fillMaxWidth()

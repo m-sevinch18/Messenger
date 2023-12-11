@@ -17,7 +17,7 @@ import uz.itschool.messenger.screens.SplashScreen
 fun NavGraph (navController: NavHostController){
     NavHost(
         navController = navController,
-        startDestination = Screens.Registration.route)
+        startDestination = Screens.Intro.route)
     {
         composable(route = Screens.Registration.route){
             RegistrationScreen(navController)
